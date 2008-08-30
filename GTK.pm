@@ -12,7 +12,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw() ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Data::TreeDumper ;
 
@@ -205,7 +205,7 @@ Data::TreeDumper::Renderer::GTK - Gtk2::TreeView renderer for B<Data::TreeDumper
         +----Gtk2::Widget
               +----Gtk2::Container
                     +----Gtk2::TreeView
-                          +----Mup::TreeDumper
+                          +----Data::TreeDumper::Renderer::GTK
 
 =head1 DESCRIPTION
 
